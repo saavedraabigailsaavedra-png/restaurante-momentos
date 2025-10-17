@@ -10,8 +10,9 @@ Sistema web completo para la gestión de un restaurante, incluyendo menú dinám
 
 ## 📋 Descripción
 
-**Restaurante Momentos** es una pagina web dinamica diseñada para facilitar la gestión de un restaurante moderno. Permite a los clientes explorar el menú, realizar reservas en línea y contactar al establecimiento, mientras que los administradores pueden gestionar el contenido dinámicamente desde un panel de control seguro.
+**Restaurante Momentos** es una página web dinámica diseñada para facilitar la gestión de un restaurante moderno. Permite a los clientes explorar el menú, realizar reservas en línea y contactar al establecimiento, mientras que los administradores pueden gestionar el contenido dinámicamente desde un panel de control seguro.
 
+---
 
 ## ✨ Características Principales
 
@@ -56,7 +57,7 @@ restaurante-momentos/
 ├── images/                    # Recursos gráficos
 │   └── platos/               # Imágenes de platos (generadas automáticamente)
 │
-├── screenshots/              # Capturas de pantalla del proyecto
+├── Screenshots/              # Capturas de pantalla del proyecto
 │
 ├── conexion.php              # Configuración de base de datos
 ├── create_admin.php          # Crear usuario administrador
@@ -84,7 +85,7 @@ restaurante-momentos/
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/TuUsuario/restaurante-momentos.git
+git clone https://github.com/saavedraabigailsaavedra-png/restaurante-momentos.git
 cd restaurante-momentos
 ```
 
@@ -163,45 +164,74 @@ chmod 777 images/platos
 - Sitio público: `http://localhost/restaurante-momentos/`
 - Panel admin: `http://localhost/restaurante-momentos/login.php`
 
+---
 
 ## 📸 Capturas de Pantalla
 
 ### 🏠 Página Principal
-![Página de Inicio](screenshots/01-inicio.png)
+<p align="center">
+  <img src="Screenshots/cap17.png" alt="Página de Inicio" width="700">
+</p>
+
 *Página de inicio del restaurante con diseño elegante y presentación del concepto "Momentos - Únicos en la mesa"*
 
-
 ### 📞 Página de Contacto
-![Contacto](screenshots/02-contacto.png)
+<p align="center">
+  <img src="Screenshots/cap18.png" alt="Contacto" width="700">
+</p>
+
 *Información de contacto completa con teléfono, email, dirección y mapa interactivo de Google Maps mostrando el Centro Comercial Chiriguano en Santa Cruz de la Sierra*
 
 ### 📅 Sistema de Reservas
-![Reservas](screenshots/03-reservas.png)
+<p align="center">
+  <img src="Screenshots/cap19.png" alt="Sistema de Reservas" width="700">
+</p>
+
 *Formulario intuitivo para reservar mesas con validación en tiempo real. Los clientes pueden seleccionar mesa, cantidad de personas, fecha y hora*
 
 ### 📖 Menú del Restaurante
-![Menú](screenshots/04-menu.png)
+<p align="center">
+  <img src="Screenshots/cap20.png" alt="Menú" width="700">
+</p>
+
 *Menú público mostrando aperitivos (Nuggets de pollo crujientes 30 Bs) y platos principales con imágenes atractivas*
 
 ### 🔐 Login Administrativo
-![Login](screenshots/05-login.png)
+<p align="center">
+  <img src="Screenshots/cap21.png" alt="Login Administrativo" width="700">
+</p>
+
 *Sistema de autenticación seguro para administradores con validación de credenciales y opción de mostrar/ocultar contraseña*
 
 ### 📊 Panel de Administración
-![Dashboard Admin](screenshots/06-dashboard.png)
+<p align="center">
+  <img src="Screenshots/cap22.png" alt="Dashboard" width="700">
+</p>
+
 *Panel central de control con acceso rápido a Gestión de Menú, Gestión de Reservas y opción para cerrar sesión*
 
 ### 🍽️ Gestión de Menú (Admin)
-![Gestión de Menú](screenshots/07-gestion-menu.png)
+<p align="center">
+  <img src="Screenshots/cap23.png" alt="Gestión de Menú" width="700">
+</p>
+
 *Interfaz para agregar, editar y eliminar platos del menú. Incluye carga de imágenes, descripción y precios*
 
 ### 📋 Lista de Platos Registrados
-![Platos Registrados](screenshots/08-platos-registrados.png)
+<p align="center">
+  <img src="Screenshots/cap24.png" alt="Platos Registrados" width="700">
+</p>
+
 *Vista de todos los platos registrados con sus imágenes, precios y fechas. Opciones para editar o eliminar cada elemento*
 
 ### 📅 Gestión de Reservas (Admin)
-![Gestión de Reservas](screenshots/09-gestion-reservas.png)
+<p align="center">
+  <img src="Screenshots/cap25.png" alt="Gestión de Reservas" width="700">
+</p>
+
 *Panel administrativo para visualizar todas las reservas con detalles completos: cliente, correo, teléfono, mesa, personas, fecha, hora y estado (Aceptada/Rechazada)*
+
+---
 
 ## 📱 Funcionalidades Detalladas
 
@@ -258,19 +288,27 @@ Las contribuciones son bienvenidas. Por favor:
 4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
 5. Abre un Pull Request
 
+---
+
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
+---
+
 ## 👨‍💻 Autor
 
-**Tu Nombre**
-- GitHub: [@TuUsuario](https://github.com/saavedraabigailsaavedra-png)
+**Abigail Saavedra**
+- GitHub: [@saavedraabigailsaavedra-png](https://github.com/saavedraabigailsaavedra-png)
 - Email: saavedraabigailsaavedra@gmail.com
+
+---
 
 ## 📞 Soporte
 
 Si tienes alguna pregunta o problema, por favor abre un [issue](https://github.com/saavedraabigailsaavedra-png/restaurante-momentos/issues) en GitHub.
+
+---
 
 ## 🙏 Agradecimientos
 
@@ -278,19 +316,21 @@ Si tienes alguna pregunta o problema, por favor abre un [issue](https://github.c
 - Google Maps por la integración de mapas
 - La comunidad de desarrolladores PHP
 
+---
+
 ## 📝 Notas Adicionales
 
 ### Credenciales de Prueba
 - **Usuario**: admin
 - **Contraseña**: (la que configures durante la instalación)
 
-### Ubicación
-estaurante: Centro Comercial Chiriguano
-Ciudad: Santa Cruz de la Sierra, Bolivia
-Teléfono: +591 75601336
-Email: momentos@gmail.com
+### Ubicación del Restaurante
+- **Dirección**: Centro Comercial Chiriguano
+- **Ciudad**: Santa Cruz de la Sierra, Bolivia
+- **Teléfono**: +591 75601336
+- **Email**: momentos@gmail.com
 
-⭐️ **Si este proyecto te fue útil, considera darle una estrella en GitHub!**
+---
 
 ## 🚀 Próximas Mejoras
 
@@ -302,3 +342,7 @@ Email: momentos@gmail.com
 - [ ] Multi-idioma (Español/Inglés)
 - [ ] PWA (Progressive Web App)
 - [ ] Dashboard con estadísticas y gráficos
+
+---
+
+⭐️ **Si este proyecto te fue útil, considera darle una estrella en GitHub!**
